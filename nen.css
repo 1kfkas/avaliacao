@@ -1,0 +1,135 @@
+@import url(font/WorkSans-VariableFont_wght.ttf);
+
+
+@font-face {
+    font-family: WorkSans;
+    src: url(font/WorkSans-VariableFont_wght.ttf);
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    transition: 1s;
+}
+
+p{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+body{
+    color: white;
+    font-size: 25px;
+    font-family: WorkSans;
+    text-align: justify;
+    background-image: url(images/galaxy.jpg);
+    background-size:contain;
+}
+
+.nen {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff;
+    }
+    to {
+        text-shadow: 0 0 20px #fff;
+    }
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform:translateY(20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.ten {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: ten 3s ease-in-out infinite alternate;
+    -moz-animation: ten 3s ease-in-out infinite alternate;
+    animation: ten 3s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes ten {
+    from {
+        text-shadow: 0 0 40px #fff;
+    }
+    to {
+        text-shadow: 0 0 50px #fff;
+    }
+}
+
+.zetsu {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: zetsu 3s ease-in-out infinite alternate;
+    -moz-animation: zetsu 3s ease-in-out infinite alternate;
+    animation: zetsu 3s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes zetsu {
+    from {
+        text-shadow: 0 0 10px #000000;
+    }
+    to {
+        text-shadow: 0 0 40px #000000;
+    }
+
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.05);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+.ren {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: ren 0.5s ease-in-out infinite alternate;
+    -moz-animation: ren 0.5s ease-in-out infinite alternate;
+    animation: ren 0.5s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes ren {
+    from {
+        text-shadow: 0 0 40px #ffffff;
+    }
+    to {
+        text-shadow: 0 0 80px #ffffff;
+    }
+
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.05);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
